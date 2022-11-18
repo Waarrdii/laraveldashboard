@@ -19,7 +19,7 @@
     <title>Hello, world!</title>
     <Style>
         :root{
-            --offcanvas-width:200px;
+            --offcanvas-width:270px;
             --topnav-height:60px;
         }
         .sidebar-nav{
@@ -70,25 +70,39 @@
 
                     <div class="offcanvas offcanvas-start sidebar-nav drawer-light" data-bs-backdrop="false" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Dasboard</h5>
                         <button type="button" class="btn-close text-reset btn-canvas" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                        <div>
-                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                            <div class="list-group list-group-flush">
+                                <button type="button" class="list-group-item list-group-item-action" aria-current="true" data-bs-toggle="collapse" data-bs-target="#Penjualan" aria-expanded="false" aria-controls="Penjualan">
+                                  Penjualan
+                                </button>
+                                <div class="list-group list-group-flush collapse" id="Penjualan">
+                                    <button type="button" class="list-group-item list-group-item-action">Penawaran</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Pesanan</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Faktur Pengiriman</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Faktur Penjualan</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Penerimaan Piutang</button>
+                                  </div>
+                                  <div class="list-group list-group-flush">
+                                    <button type="button" class="list-group-item list-group-item-action" aria-current="true" data-bs-toggle="collapse" data-bs-target="#Pembelian" aria-expanded="false" aria-controls="Pembelian">
+                                      Pembelian
+                                    </button>
+                                    <div class="list-group list-group-flush collapse" id="Pembelian">
+                                        <button type="button" class="list-group-item list-group-item-action">Penawaran</button>
+                                        <button type="button" class="list-group-item list-group-item-action">Pesanan</button>
+                                        <button type="button" class="list-group-item list-group-item-action">Faktur Pengiriman</button>
+                                        <button type="button" class="list-group-item list-group-item-action">Faktur Penjualan</button>
+                                        <button type="button" class="list-group-item list-group-item-action">Penerimaan Piutang</button>
+                                      </div>
+                                <button type="button" class="list-group-item list-group-item-action">A second item</button>
+                                <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+                                <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+                                <button type="button" class="list-group-item list-group-item-action">A disabled button item</button>
+                              </div>
                         </div>
-                        <div class="dropdown mt-3">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                            Dropdown button
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
+
                     </div>
                 </ul>
 
