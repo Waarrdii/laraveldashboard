@@ -76,31 +76,53 @@
                         <div class="offcanvas-body">
                             <div class="list-group list-group-flush">
                                 <button type="button" class="list-group-item list-group-item-action" aria-current="true" data-bs-toggle="collapse" data-bs-target="#Penjualan" aria-expanded="false" aria-controls="Penjualan">
-                                  Penjualan
+                                  <strong>Penjualan</strong>
                                 </button>
+                                <!--Menu Pembelian-->
                                 <div class="list-group list-group-flush collapse" id="Penjualan">
-                                    <button type="button" class="list-group-item list-group-item-action">Penawaran</button>
-                                    <button type="button" class="list-group-item list-group-item-action">Pesanan</button>
-                                    <button type="button" class="list-group-item list-group-item-action">Faktur Pengiriman</button>
-                                    <button type="button" class="list-group-item list-group-item-action">Faktur Penjualan</button>
-                                    <button type="button" class="list-group-item list-group-item-action">Penerimaan Piutang</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Permintaan Penjualan</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Pesanan Penjualan</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Faktur Pengiriman Barang</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Faktur Penjualan</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Penerimaan Piutang</button>
                                   </div>
-                                  <div class="list-group list-group-flush">
+                            </div>
+                            <!--Menu Pembelian-->
+                            <div class="list-group list-group-flush">
                                     <button type="button" class="list-group-item list-group-item-action" aria-current="true" data-bs-toggle="collapse" data-bs-target="#Pembelian" aria-expanded="false" aria-controls="Pembelian">
-                                      Pembelian
+                                      <strong>Pembelian</strong>
                                     </button>
                                     <div class="list-group list-group-flush collapse" id="Pembelian">
-                                        <button type="button" class="list-group-item list-group-item-action">Penawaran</button>
-                                        <button type="button" class="list-group-item list-group-item-action">Pesanan</button>
-                                        <button type="button" class="list-group-item list-group-item-action">Faktur Pengiriman</button>
-                                        <button type="button" class="list-group-item list-group-item-action">Faktur Penjualan</button>
-                                        <button type="button" class="list-group-item list-group-item-action">Penerimaan Piutang</button>
+                                        <button type="button" class="border-0 list-group-item list-group-item-action">Permintaan Pembelian</button>
+                                        <button type="button" class="border-0 list-group-item list-group-item-action">Pesanan Pembelian</button>
+                                        <button type="button" class="border-0 list-group-item list-group-item-action">Faktur Penerimaan</button>
+                                        <button type="button" class="border-0 list-group-item list-group-item-action">Faktur Pembelian</button>
+                                        <button type="button" class="border-0 list-group-item list-group-item-action">Pembayaran Utang</button>
                                       </div>
-                                <button type="button" class="list-group-item list-group-item-action">A second item</button>
-                                <button type="button" class="list-group-item list-group-item-action">A third button item</button>
-                                <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
-                                <button type="button" class="list-group-item list-group-item-action">A disabled button item</button>
-                              </div>
+                            </div>
+                            <!--Menu Persediaan-->
+                            <div class="list-group list-group-flush">
+                                <button type="button" class="list-group-item list-group-item-action" aria-current="true" data-bs-toggle="collapse" data-bs-target="#Persediaan" aria-expanded="false" aria-controls="Persediaan">
+                                  <strong>Persediaan</strong>
+                                </button>
+                                <div class="list-group list-group-flush collapse" id="Persediaan">
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Daftar Persediaan</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Penyesuaian Persediaan</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Pemindahan Persediaan</button>
+                                  </div>
+                        </div>
+                            <!--Menu BukuBesar-->
+                            <div class="list-group list-group-flush">
+                                <button type="button" class="list-group-item list-group-item-action" aria-current="true" data-bs-toggle="collapse" data-bs-target="#BukuBesar" aria-expanded="false" aria-controls="BukuBesar">
+                                  <strong>BukuBesar</strong>
+                                </button>
+                                <div class="list-group list-group-flush collapse" id="BukuBesar">
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Jurnal Umum</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Rekonsiliasi Bank</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Pembayaran Lainnya</button>
+                                    <button type="button" class="border-0 list-group-item list-group-item-action">Penerimaan Lainnya</button>
+                                  </div>
+                        </div>
                         </div>
 
                     </div>
